@@ -7,7 +7,7 @@
     background-position: center center;
     background-size: cover;
     h1{
-        margin-bottom: 1em;
+        margin-bottom: .6em;
     }
 }
 
@@ -16,3 +16,29 @@
     color: white; 
 }
 
+.promos{
+    article{
+        background-color: $clr-main;
+        margin: 0 10px;
+        padding: 20px;
+        border-radius: 15px;
+
+        img{
+            height: 210px;
+            width: 100%;
+            object-fit: cover;
+
+            margin-bottom: 1em;
+        }
+    }
+}
+
+.art-promos{
+    padding: 0 20px;
+}
+
+@media screen and (max-width: 767px){
+    .promos article{
+        margin: 10px 0;
+    }
+}
