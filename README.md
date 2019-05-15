@@ -1,7 +1,12 @@
-# Projet de construction d'un site de restaurant en Bootstrap
+# Projet de construction d'un site de restaurant en Bootstrap <!-- omit in toc -->
 Concevoir et intégrer un site de restaurant en utilisant Bootstrap
 
 Projet solo par **Frédérick Van Isschot**
+
+- [But du projet](#but-du-projet)
+  - [Les pages:](#les-pages)
+- [Les difficultés](#les-difficultés)
+- [Les étapes de travail](#les-étapes-de-travail)
 
 ## But du projet
 Le but est réaliser un site vitrine d'une franchise de restaurants sur le type de nourriture de notre choix.
