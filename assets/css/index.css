@@ -30,7 +30,10 @@ header {
 nav a {
   font-size: 2em;
   font-weight: 300;
-  font-variant: small-caps;
+}
+
+.navbar-toggler {
+  background-color: #F5EEE4;
 }
 
 @media screen and (max-width: 991px) {
@@ -56,8 +59,20 @@ nav a {
   background-size: cover;
 }
 
+.intro .shdw {
+  text-shadow: 0px 0px 4px black, 0px 0px 3px black, 0px 0px 2px black, 0px 0px 2px black;
+}
+
 .intro h1 {
+  font-size: 48px;
+  font-weight: 300;
   margin-bottom: .6em;
+}
+
+.intro a {
+  color: black;
+  background-color: #D5C8B0;
+  border: none;
 }
 
 .jumbotron {
@@ -68,6 +83,12 @@ nav a {
 .promos {
   margin-bottom: 2em;
   padding: 3em 0;
+}
+
+.promos h2 {
+  font-weight: 700;
+  font-size: 48px;
+  margin-bottom: 15px;
 }
 
 .promos article {

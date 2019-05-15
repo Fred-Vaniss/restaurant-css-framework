@@ -14,7 +14,10 @@ header{
 nav a{
     font-size: 2em;
     font-weight: 300;
-    font-variant: small-caps;
+}
+
+.navbar-toggler{
+    background-color: $clr-bg;
 }
 
 @media screen and (max-width: 991px){
