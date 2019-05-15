@@ -1,0 +1,18 @@
+@import 'global';
+@import 'header';
+
+.intro{
+    background-color: #54320059;
+    background-image: url(../images/tunnel-vision.png),url(../images/jumbotron_bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    h1{
+        margin-bottom: 1em;
+    }
+}
+
+.jumbotron{
+    background-color: unset;
+    color: white; 
+}
+

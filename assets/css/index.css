@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700");
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -10,6 +11,7 @@ html {
 
 body {
   background-color: #F5EEE4;
+  font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -27,18 +29,8 @@ header {
 
 nav a {
   font-size: 2em;
-}
-
-.intro {
-  background-color: #54320059;
-  background-image: url(../images/tunnel-vision.png), url(../images/jumbotron_bg.jpg);
-  background-position: center center;
-  background-size: cover;
-}
-
-.jumbotron {
-  background-color: unset;
-  color: white;
+  font-weight: 300;
+  font-variant: small-caps;
 }
 
 @media screen and (max-width: 991px) {
@@ -56,4 +48,20 @@ nav a {
     text-align: right;
   }
 }
-/*# sourceMappingURL=style.css.map */
+
+.intro {
+  background-color: #54320059;
+  background-image: url(../images/tunnel-vision.png), url(../images/jumbotron_bg.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
+.intro h1 {
+  margin-bottom: 1em;
+}
+
+.jumbotron {
+  background-color: unset;
+  color: white;
+}
+/*# sourceMappingURL=index.css.map */
