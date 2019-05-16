@@ -2,6 +2,11 @@
 @import 'header';
 
 
+@media screen and (min-width: 992px){
+    textarea{
+        height: 86%!important;
+    }
+}
 
 @media screen and (max-width: 767px){
 

@@ -52,6 +52,12 @@ nav a {
   }
 }
 
+@media screen and (min-width: 992px) {
+  textarea {
+    height: 86% !important;
+  }
+}
+
 footer {
   background-color: #D5C8B0;
   padding-top: 1em;

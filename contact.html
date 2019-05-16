@@ -51,29 +51,40 @@
 	<section class="contact">
 		<div class="container">
 			<form class="contact">
-				<div class="col-4">
-					<div class="form-group">
-						<label for="name">Nom</label>
-						<input type="text" class="form-control" id="name" placeholder="Nom">
+				<div class="row">
+					<div class="col-12 col-lg-4">
+						<div class="form-group">
+							<label for="name">Nom</label>
+							<input type="text" class="form-control" id="name" placeholder="Nom">
+						</div>
+						<div class="form-group">
+							<label for="firstname">Prénom</label>
+							<input type="text" class="form-control" id="firstname" placeholder="Prénom">
+						</div>
+						<div class="form-group">
+							<label for="mail">E-mail</label>
+							<input type="email" class="form-control" id="email">
+						</div>
+						<div class="form-group">
+							<label for="type">Objet du message</label>
+							<select class="form-control" id="type">
+								<option value="">** Veuillez faire un choix **</option>
+								<option value="opt1">Suggestion</option>
+								<option value="opt2">Remboursement</option>
+								<option value="opt3">Plainte</option>
+								<option value="opt4">Sponsoring</option>
+							</select>
+						</div>
 					</div>
-					<div class="form-group">
-						<label for="firstname">Prénom</label>
-						<input type="text" class="form-control" id="firstname" placeholder="Prénom">
+					<div class="col-12 col-lg-8">
+						<div class="form-group h-100">
+							<label for="msg">Message</label>
+							<textarea class="form-control"></textarea>
+						</div>
 					</div>
-					<div class="form-group">
-						<label for="mail">E-mail</label>
-						<input type="email" class="form-control" id="email">
-					</div>
-					<div class="form-group">
-						<label for="type">Objet du message</label>
-						<select class="form-control" id="type">
-							<option value="">** Veuillez faire un choix **</option>
-							<option value="opt1">Suggestion</option>
-							<option value="opt2">Remboursement</option>
-							<option value="opt3">Plainte</option>
-							<option value="opt4">Sponsoring</option>
-						</select>
-					</div>
+				</div>
+				<div class="row justify-content-end">
+					<button type="submit" class="btn btn-primary">Envoyer</button>
 				</div>
 			</form>
 		</div>
