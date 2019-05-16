@@ -1,6 +1,30 @@
 @import 'global';
 @import 'header';
 
+.carte {
+    margin: 100px 0;
+    h1{
+        font-family: 'Lobster', cursive;
+        font-size: 3em;
+    }
+    
+    article{
+        background-color: $clr-main;
+        padding: 30px 30px;
+        margin: 10px 10px;
+        border-radius: 15px;
+    }
+}
 
 
 @import 'footer';
+
+@media screen and (max-width: 767px){
+    .carte article{
+        margin: 10px 0;
+    }
+
+    .row{
+        padding: 0 10px;
+    }
+}
