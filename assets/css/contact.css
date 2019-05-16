@@ -14,6 +14,28 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.btn-primary {
+  margin-right: 15px;
+  background-color: #F5EEE4;
+  border: none;
+  color: black;
+  padding: 6px 32px;
+}
+
+.btn-primary:hover {
+  background-color: #868076;
+}
+
+.btn-primary:active {
+  color: black !important;
+  background-color: #f6e69e !important;
+}
+
+.btn-primary:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(245, 238, 228, 0.363);
+          box-shadow: 0 0 0 0.2rem rgba(245, 238, 228, 0.363);
+}
+
 header {
   background-color: #D5C8B0;
 }
@@ -52,9 +74,32 @@ nav a {
   }
 }
 
+.contact {
+  margin: 100px 0;
+}
+
+.contact-form {
+  background-color: #D5C8B0;
+  padding: 25px;
+  border-radius: 15px;
+}
+
+.btn-primary {
+  font-size: 2em;
+}
+
 @media screen and (min-width: 992px) {
   textarea {
     height: 86% !important;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .msg-col {
+    height: 200px;
+  }
+  .msg-col textarea {
+    height: 75%;
   }
 }
 
