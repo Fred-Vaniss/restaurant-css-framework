@@ -10,14 +10,15 @@ function openPage(pageId) {
 	curPage = pageId;
 }
 
-function nextPage() {
-	page = curPage + 1
-	pageId = checkPage(page);
-	openPage(pageId);
-}
-
-function prevPage(){
-	page = curPage - 1
+function nextPage(action) {
+	switch (action) {
+		case 0:
+			page = curPage - 1
+			break;
+		case 1:
+			page = curPage + 1
+			break;
+	}
 	pageId = checkPage(page);
 	openPage(pageId);
 }
