@@ -11,7 +11,7 @@ header{
     width: 530px;
 }
 
-nav a{
+header nav a{
     font-size: 2em;
     font-weight: 300;
 }
@@ -34,7 +34,7 @@ nav a{
         margin: 0;
     }
 
-    nav a{
+    header nav a{
         text-align: right;
     }
 }
