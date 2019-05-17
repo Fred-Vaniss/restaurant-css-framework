@@ -49,4 +49,4 @@ Une fois le wireframe terminé, je cherche ou je crée les éléments graphique 
 
 Une fois ces éléments rassemblés, depuis le wireframe que j'ai construit précédemment, je met en place les éléments graphiques, les couleurs de mes blocs pour donner ce que va vraiment ressembler mon site en HTML
 
-![./markdown/img_1.png](La maquette finalisé de ma page d'accueil)
+![La maquette finalisé de ma page d'accueil](./markdown/img_1.png)
