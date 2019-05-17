@@ -7,6 +7,7 @@ Projet solo par **Frédérick Van Isschot**
   - [Les pages:](#les-pages)
 - [Les difficultés](#les-difficultés)
 - [Les étapes de travail](#les-étapes-de-travail)
+  - [Conception de la maquette](#conception-de-la-maquette)
 
 ## But du projet
 Le but est réaliser un site vitrine d'une franchise de restaurants sur le type de nourriture de notre choix.
@@ -39,3 +40,13 @@ J'ai dû appliquer tout ce que j'ai appris en UX Webdesign: concevoir des maquet
 
 Moi qui est des grosses lacunes en créativité, c'est ce qui m'as pris le plus de temps, le temps que je trouve les idées et trouver comment je vais mettre en page.
 
+### Conception de la maquette
+Pour avoir une meilleur vision de comment je vais construire mon site il a fallu d'abord que je fasse une maquette, pour cela j'ai utilisé Adobe Illustrator.
+
+Pour la première étape j'ai fait d'abord un *wireframe*, ou je construis une maquette sans élément graphique (les images auront une crosse croix dessus)
+
+Une fois le wireframe terminé, je cherche ou je crée les éléments graphique qui seront sur mes pages: logos, images, picrogrammes, police, etc...
+
+Une fois ces éléments rassemblés, depuis le wireframe que j'ai construit précédemment, je met en place les éléments graphiques, les couleurs de mes blocs pour donner ce que va vraiment ressembler mon site en HTML
+
+![./markdown/img_1.png](La maquette finalisé de ma page d'accueil)
