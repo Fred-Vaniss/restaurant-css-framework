@@ -15,6 +15,28 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.global-section {
+  margin: 100px 0;
+}
+
+.global-section h2 {
+  font-family: 'Lobster', cursive;
+  font-size: 3em;
+}
+
+.global-section article {
+  background-color: #D5C8B0;
+  padding: 30px 30px;
+  margin: 10px 10px;
+  border-radius: 15px;
+}
+
+@media screen and (max-width: 767px) {
+  .global-section article {
+    margin: 10px 0;
+  }
+}
+
 header {
   background-color: #D5C8B0;
 }
@@ -53,22 +75,6 @@ nav a {
   }
 }
 
-.restos {
-  margin: 100px 0;
-}
-
-.restos h1 {
-  font-family: 'Lobster', cursive;
-  font-size: 3em;
-}
-
-.restos article {
-  background-color: #D5C8B0;
-  padding: 30px 30px;
-  margin: 0 10px;
-  border-radius: 15px;
-}
-
 .liste-restos {
   padding: 0 20px;
 }
@@ -93,11 +99,5 @@ footer {
 footer a {
   color: black;
   text-decoration: none;
-}
-
-@media screen and (max-width: 767px) {
-  .restos article {
-    margin: 10px 0;
-  }
 }
 /*# sourceMappingURL=restos.css.map */

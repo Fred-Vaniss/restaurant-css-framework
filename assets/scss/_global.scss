@@ -41,3 +41,24 @@ body{
         box-shadow: 0 0 0 0.2rem rgba(245, 238, 228, 0.363);
     }
 }
+
+.global-section {
+    margin: 100px 0;
+    h2{
+        font-family: 'Lobster', cursive;
+        font-size: 3em;
+    }
+    
+    article{
+        background-color: $clr-main;
+        padding: 30px 30px;
+        margin: 10px 10px;
+        border-radius: 15px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .global-section article{
+        margin: 10px 0;
+    }
+}

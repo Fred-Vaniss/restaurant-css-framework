@@ -1,21 +1,6 @@
 @import 'global';
 @import 'header';
 
-.restos {
-    margin: 100px 0;
-    h1{
-        font-family: 'Lobster', cursive;
-        font-size: 3em;
-    }
-    
-    article{
-        background-color: $clr-main;
-        padding: 30px 30px;
-        margin: 0 10px;
-        border-radius: 15px;
-    }
-}
-
 .liste-restos{
     padding: 0 20px;
 }
@@ -33,10 +18,3 @@ iframe{
 }
 
 @import 'footer';
-
-
-@media screen and (max-width: 767px){
-    .restos article{
-        margin: 10px 0;
-    }
-}

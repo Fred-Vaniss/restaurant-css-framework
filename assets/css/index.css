@@ -37,6 +37,28 @@ body {
           box-shadow: 0 0 0 0.2rem rgba(245, 238, 228, 0.363);
 }
 
+.global-section {
+  margin: 100px 0;
+}
+
+.global-section h2 {
+  font-family: 'Lobster', cursive;
+  font-size: 3em;
+}
+
+.global-section article {
+  background-color: #D5C8B0;
+  padding: 30px 30px;
+  margin: 10px 10px;
+  border-radius: 15px;
+}
+
+@media screen and (max-width: 767px) {
+  .global-section article {
+    margin: 10px 0;
+  }
+}
+
 header {
   background-color: #D5C8B0;
 }
@@ -97,25 +119,7 @@ nav a {
   color: white;
 }
 
-.promos {
-  margin-bottom: 2em;
-  padding: 3em 0;
-}
-
-.promos h2 {
-  font-weight: 700;
-  font-size: 48px;
-  margin-bottom: 15px;
-}
-
-.promos article {
-  background-color: #D5C8B0;
-  margin: 0 10px;
-  padding: 20px;
-  border-radius: 15px;
-}
-
-.promos article img {
+.promos img {
   height: 210px;
   width: 100%;
   -o-object-fit: cover;
@@ -135,11 +139,5 @@ footer {
 footer a {
   color: black;
   text-decoration: none;
-}
-
-@media screen and (max-width: 767px) {
-  .promos article {
-    margin: 10px 0;
-  }
 }
 /*# sourceMappingURL=index.css.map */
